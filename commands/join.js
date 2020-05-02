@@ -2,7 +2,7 @@ const discord = require("discord.js");
 
 module.exports.run = async(bot, message, args) => {
 
-
+    bot.on("guildMemberRemove", member => {
 
         const channel = member.guild.channels.cache.find(c => c.name == "👋welkom");
         if (!channel) console.log("Kan het kanaal niet vinden.");
@@ -17,9 +17,9 @@ module.exports.run = async(bot, message, args) => {
     
         channel.send(joinEmbed);
     
-    };
+    });
 
-
+}
 
 module.exports.help = {
     name: "join"
