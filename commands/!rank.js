@@ -6,7 +6,7 @@ module.exports.run = async(bot, message, args) => {
     var botEmbed = new discord.MessageEmbed()
             .setTitle("Rank informatie")
             .setColor("#29e53f")
-            .setThumbnail(`https://cdn.discordapp.com/attachments/695319903523045457/704031383676518471/RaceTopia_2.png`)
+            .setThumbnail(`https://media.discordapp.net/attachments/657873470083825687/707217773486669864/Logopit_1588684246709.jpg?width=677&height=677`)
             .setDescription("Voer het onderstaande command in om een specifiek rank informatie op te vragen!")
             .addField("**__@[💼] Partner__**", "!rank-partner")
             .addField("**__@[▶️] Youtuber__**", "!rank-youtuber")
