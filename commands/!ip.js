@@ -6,7 +6,7 @@ module.exports.run = async(bot, message, args) => {
                     var botEmbed = new discord.MessageEmbed()
                             .setTitle("Server informatie")
                             .setColor("#29e53f")
-                            .setThumbnail(`https://media.discordapp.net/attachments/705028751846670338/707226783296127006/Logopit_1588686370857.jpg?width=677&height=677`)
+                            .setThumbnail(`https://lh3.googleusercontent.com/-tFW9_-JKl0M/XrF-1_XN0zI/AAAAAAAAGG4/8-8nbq8Sg7k_aEykdrqSaYSmoAu69W97ACEwYBhgL/w140-h140-p/logo.jpg`)
                             .addField("**__🔐Server ip__**", "{komt Soon!}")
                             .addField("**__🌎Server versie__**", "1.12.2 Optifine")
                             .addField("**__🔴Server status__**", "Offline")
