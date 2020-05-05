@@ -7,7 +7,7 @@ module.exports.run = async(bot, message, args) => {
             var botEmbed = new discord.MessageEmbed()
                     .setTitle("Alle customcommands")
                     .setColor("#29e53f")
-                    .setThumbnail(`https://media.discordapp.net/attachments/657873470083825687/707217773486669864/Logopit_1588684246709.jpg?width=677&height=677`)
+                    .setThumbnail(`https://media.discordapp.net/attachments/705028751846670338/707218520483692705/Logopit_1588684395132.jpg?width=677&height=677`)
                     .addField("**__[👑] Owner__**", "`!unban` - Om iemand zijn ban op te heffen")
                     .addField("**__[🖥️] Developer, [🎩] Projectleider__**", "`!infractions <naam>` - Om alle warns van iemand te zien!\n`!user-info <naam>` - Om iemands speler informatie op te vragen!")
                     .addField("**__[🍖] Admin__**", "`!ban <naam> <reden>` - Om imand van de server te bannen! \n`!clear <aantal>` - Om <aantal> berichten te verweideren!\n`!unmute <naam>` - Om iemand te unmute!\n`!slowmode` - Om een langzame chat in te stellen!")
